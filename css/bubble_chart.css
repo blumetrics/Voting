@@ -1,0 +1,108 @@
+a, a:visited, a:active {
+  color: #444;
+}
+
+body {
+  background: #eeeeee;
+}
+
+h1 {
+  font-family: 'Quicksand';
+  font-size: 46px;
+  color: #F61A30;
+}
+
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: lighter;
+  color: #000000;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.button {
+  min-width: 130px;
+  padding: 4px 5px;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Roboto';
+  color: #F61A30;
+  font-size: 13px;
+  border: 1px solid #e0e0e0;
+  text-decoration: none;
+}
+
+.button.active {
+  background: #F61A30;
+  color: #fff;
+}
+
+
+#vis {
+  width: 1100px;
+  height: 600px;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+#toolbar {
+  margin-top: 20px;
+}
+
+.wynik {
+  font-size: 21px;
+  font-family: 'Roboto';
+  fill: #F61A30;
+  opacity: 0.7;
+  cursor: default;
+}
+
+.tooltip {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  -moz-border-radius:5px;
+  border-radius: 5px;
+  border: 2px solid #F61A30;
+  background:rgba(218,218,218,0.8);
+  opacity: .9;
+  color: black;
+  font-family: 'Roboto';
+  padding: 10px;
+  width: 200px;
+  font-size: 12px;
+  z-index: 10;
+}
+
+.tooltip .title {
+  font-size: 13px;
+}
+
+.tooltip .name {
+  font-weight:bold;
+  font-size: 14px;
+  color: #F61A30;
+}
+
+.tooltip .value {
+  font-family: 'Quicksand';
+  font-size: 14px;
+  color: #404244;
+}
+
+.footer {
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.legend rect {
+  fill:white;
+  stroke:black;
+  opacity:0.8;}

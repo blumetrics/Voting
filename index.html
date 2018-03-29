@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Voting</title>
+  <meta name="description" content="Visualizing results of parliamentary votes in Poland">
+  <meta name="author" content="Julia Bluszcz">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/bubble_chart.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Roboto|Poiret+One|Quicksand" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Parliamentary Votes Results</h1>
+    <h2>The last few months brough considerable turmoil on the global but also on the Polish political scene. The sudden change of the ruling party resulted in the abrupt shift in the internal policy and brough into voting the most fundamental aspects of citizens' every-day life: the pension system, education system, and laws concerning women' reproductory rights. The visualization below gives a chance to investigate the results of these parliamentary votings.</h2>
+    <div id="toolbar">
+      <a href="#/" id="all" class="button active">Parliament</a>
+      <a href="#/" id="aborcja" class="button">Liberalization of abortion law</a>
+      <a href="#/" id="oswiata" class="button">Education reform</a>
+      <a href="#/" id="emerytura" class="button">Pension system reform</a>
+    </div>
+    <div id="vis"></div>
+
+    <div class="footer">
+      <p>Data source: http://www.sejm.gov.pl</p>
+    </div>
+  </div>
+
+  <script src="//d3js.org/d3.v4.min.js"></script>
+  <script src="src/tooltip.js"></script>
+  <script src="src/bubble_chart.js"></script>
+  <script src="src/legend.js"></script>
+
+
+
+</body>
+</html>
